@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_alignTop="@+id/aicte_id"
+        android:background="#FFFFFF"
+        >
+    </View>
+
+        <TextView
+            android:id="@+id/aicte_id"
+            android:layout_marginLeft="5dp"
+            android:scrollHorizontally="false"
+            android:inputType="textMultiLine"
+            android:layout_width="120dp"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:layout_height="75dp"
+            android:text="AICTE Id"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id = "@+id/institute_name"
+            android:gravity="center"
+            android:scrollHorizontally="false"
+            android:inputType="textMultiLine"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:textSize="12dp"
+            android:layout_marginLeft="5dp"
+            android:text="Institute Name"
+            android:textColor="#FFFFFF"
+            android:layout_toRightOf="@+id/aicte_id"/>
+
+        <TextView
+            android:id = "@+id/state"
+            android:gravity="center"
+            android:scrollHorizontally="false"
+            android:inputType="textMultiLine"
+            android:textSize="12dp"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="5dp"
+            android:text="State"
+            android:textColor="#FFFFFF"
+            android:layout_toRightOf="@+id/institute_name"/>
+
+        <TextView
+            android:id = "@+id/district"
+            android:scrollHorizontally="false"
+            android:inputType="textMultiLine"
+            android:layout_width="120dp"
+            android:textSize="12dp"
+            android:layout_height="75dp"
+            android:text="District"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:textColor="#FFFFFF"
+            android:layout_toRightOf="@+id/state" />
+
+        <TextView
+            android:id = "@+id/institute_type"
+            android:scrollHorizontally="false"
+            android:inputType="textMultiLine"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:textSize="12dp"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="Institute Type"
+            android:textColor="#FFFFFF"
+            android:layout_toRightOf="@+id/district" />
+
+        <TextView
+            android:id = "@+id/program"
+            android:scrollHorizontally="false"
+            android:inputType="textMultiLine"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:textSize="12dp"
+            android:text="Program"
+            android:textColor="#FFFFFF"
+            android:layout_toRightOf="@+id/institute_type" />
+
+
+        <TextView
+            android:id = "@+id/university_board"
+            android:scrollHorizontally="false"
+            android:inputType="textMultiLine"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:textSize="12dp"
+            android:layout_marginLeft="5dp"
+            android:text="Institute Name"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/program" />
+
+        <TextView
+            android:id = "@+id/level"
+            android:scrollHorizontally="false"
+            android:textSize="12dp"
+            android:inputType="textMultiLine"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:text="Level"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:textColor="#FFFFFF"
+            android:layout_toRightOf="@+id/university_board" />
+
+        <TextView
+            android:id="@+id/course_name"
+            android:text="Name of the Course"
+            android:scrollHorizontally="false"
+            android:inputType="textMultiLine"
+            android:textSize="12dp"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/level"/>
+
+        <TextView
+            android:id="@+id/approvedText"
+            android:text="Approved Intake"
+            android:scrollHorizontally="false"
+            android:inputType="textMultiLine"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:textSize="12dp"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/course_name"/>
+
+        <TextView
+            android:id = "@+id/seatNumText"
+            android:scrollHorizontally="false"
+            android:inputType="textMultiLine"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:textSize="12dp"
+            android:layout_marginLeft="5dp"
+            android:text="Seats for NRI Quota"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_toRightOf="@id/approvedText"
+            />
+
+    </RelativeLayout>

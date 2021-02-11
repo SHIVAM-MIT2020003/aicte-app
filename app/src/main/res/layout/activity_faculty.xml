@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_faculty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shivamgupta.aicte.FacultyActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/headTexts"
+                android:background="#000000">
+
+                <TextView
+                    android:id="@+id/facultyId"
+                    android:layout_marginLeft="5dp"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:gravity="center"
+                    android:layout_height="75dp"
+                    android:text="FacultyId"
+                    android:textColor="#ffffff"
+                    />
+
+                <TextView
+                    android:id="@+id/facultyName"
+                    android:gravity="center"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:layout_toRightOf="@id/facultyId"
+                    android:layout_marginLeft="5dp"
+                    android:text="Name"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/genderText"
+                    android:layout_toRightOf="@id/facultyName"
+                    android:gravity="center"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Gender"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/designationText"
+                    android:layout_toRightOf="@id/genderText"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:text="Designation"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/joiningText"
+                    android:layout_toRightOf="@id/designationText"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="Date of joining"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/specializationText"
+                    android:layout_toRightOf="@id/joiningText"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="Area of Specialization"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:scrollHorizontally="false"
+                    android:id="@+id/appointmentText"
+                    android:layout_toRightOf="@id/specializationText"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Appointment Type"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_toRightOf="@id/appointmentText"
+                    android:layout_height="75dp"
+                    android:text="Institute Name"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/institute_name"
+                    />
+
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/facultyListView"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

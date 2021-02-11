@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\SHIVAM GUPTA\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_46f7d45fe5a59bdec1dbe529f2c2c0e2d87197bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SHIVAM GUPTA\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_b062d74e130329e02aacd34c853ac260f6458c78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4277e1a61a67820d25b86859f24164b636ae4ed6">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b212a43817ed6c77acbcda87ac8afad7fa667d2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_b6db998846b11819a28d157cfa7532631bd97714\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SHIVAM GUPTA\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.5.0_0e3fd2c79627fc74e0b4f650cb937ca6fe44421d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SHIVAM GUPTA\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.10.2\33ee82e324f4b1e40167f3dc5e01234a1c5cab61\jsoup-1.10.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="33ee82e324f4b1e40167f3dc5e01234a1c5cab61">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsoup-1.10.2_c74a1ac94352e0e21bceaed644ed6c0b7c09071a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_e50ff6e5a796a2258ed7342a669aac5376d05441\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1b377b35e0737977811fb70452ba564321e1a599">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4915b24ad811a1612ea4ceef7e223eca838276c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_7c6e0be799b271a83101de1e6c827d350dd623a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_8bf4f7cdce943c87db222ca5978e8451e284f1fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SHIVAM GUPTA\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.1_119a20c62b289eb4d355f829cf9f8ef230fe217f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_2356c378259bdbc31b89421832c08fd815e41099\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SHIVAM GUPTA\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\converter-gson\2.0.0-beta2\392c3d09e0f5e7087544093cc0cb23bb9c7af5fa\converter-gson-2.0.0-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta2_d7cc415f06b358a8e96b0e475c6f2e82fb306b95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SHIVAM GUPTA\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_5a7baf2ee62a5df58972483d0c5f4de6803cc55c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SHIVAM GUPTA\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\2.0.0-beta2\880d9e0997b2d1bfc98e0d121ced33ee5d04aac4\retrofit-2.0.0-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0-beta2_0752b2ce0e4c97ac91795333985ad19bd153de71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\blackHats\finalprojectHack\Aicte3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_8b5529c645e7992ec1fab025cee7177ba67ada77\classes.dex" />
+    </item>
+
+</items>

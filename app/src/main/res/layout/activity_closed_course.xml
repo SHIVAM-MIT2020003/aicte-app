@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_closed_course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shivamgupta.aicte.ClosedCourseActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/headTexts"
+                android:background="#000000">
+
+                <TextView
+                    android:id="@+id/closedCourseAicteId"
+                    android:layout_marginLeft="5dp"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:gravity="center"
+                    android:layout_height="75dp"
+                    android:text="AICTE Id"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/closedCourseInstName"
+                    android:layout_toRightOf="@+id/closedCourseAicteId"
+                    android:gravity="center"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Institute Name"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/closedCourseInstType"
+                    android:gravity="center"
+                    android:scrollHorizontally="false"
+                    android:layout_toRightOf="@+id/closedCourseInstName"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Institute Type"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/closedCourseState"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_toRightOf="@+id/closedCourseInstType"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:text="State"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/closedCourseDistrict"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:gravity="center"
+                    android:layout_toRightOf="@+id/closedCourseState"
+                    android:layout_marginLeft="5dp"
+                    android:text="District"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/closedCourseCourseId"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_toRightOf="@+id/closedCourseDistrict"
+                    android:layout_height="75dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="Course Id"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/closedCourseUniversity"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_toRightOf="@+id/closedCourseCourseId"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="University"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/closedCourseLevel"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_toRightOf="@+id/closedCourseUniversity"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:text="Level"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/closedCourseCourse"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_toRightOf="@+id/closedCourseLevel"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:text="Course"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/closedCourseShift"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_toRightOf="@+id/closedCourseCourse"
+                    android:layout_height="75dp"
+                    android:text="Course"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/closedCourseTiming"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_toRightOf="@+id/closedCourseShift"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:text="Shift"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#FFFFFF"
+                    />
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/closedCourseListView"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_closed_institute"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shivamgupta.aicte.ClosedInstituteActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/headTexts"
+                android:background="#000000">
+
+                <TextView
+                    android:id="@+id/aicte_id"
+                    android:layout_marginLeft="5dp"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:gravity="center"
+                    android:layout_height="75dp"
+                    android:text="AICTE ID"
+                    android:textColor="#ffffff"
+                    />
+
+                <TextView
+                    android:id="@+id/instituteName"
+                    android:gravity="center"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:layout_toRightOf="@id/aicte_id"
+                    android:layout_marginLeft="5dp"
+                    android:text="Institute Name"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/instituteType"
+                    android:layout_toRightOf="@id/instituteName"
+                    android:gravity="center"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Institute Type"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/closedAddress"
+                    android:layout_toRightOf="@id/instituteType"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:text="Address"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/closedState"
+                    android:layout_toRightOf="@id/closedAddress"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="State"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/closedDistrict"
+                    android:layout_toRightOf="@id/closedState"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="District"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:scrollHorizontally="false"
+                    android:id="@+id/closedCity"
+                    android:layout_toRightOf="@id/closedDistrict"
+                    android:inputType="textMultiLine"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="City"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    />
+
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/closedInstituteListView"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

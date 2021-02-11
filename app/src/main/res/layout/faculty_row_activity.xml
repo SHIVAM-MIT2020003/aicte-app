@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000">
+
+
+    <View
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_alignTop="@+id/facultyId"
+        android:background="#FFFFFF"
+        >
+    </View>
+
+
+    <TextView
+        android:id="@+id/facultyId"
+        android:layout_marginLeft="5dp"
+        android:scrollHorizontally="false"
+        android:inputType="textMultiLine"
+        android:layout_width="120dp"
+        android:gravity="center"
+        android:textSize="12dp"
+        android:layout_height="75dp"
+        android:text="FacultyId"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:id = "@+id/facultyName"
+        android:gravity="center"
+        android:scrollHorizontally="false"
+        android:inputType="textMultiLine"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:textSize="12dp"
+        android:layout_marginLeft="5dp"
+        android:text="Faculty Name"
+        android:textColor="#FFFFFF"
+        android:layout_toRightOf="@+id/facultyId"/>
+
+    <TextView
+        android:id = "@+id/genderText"
+        android:gravity="center"
+        android:scrollHorizontally="false"
+        android:inputType="textMultiLine"
+        android:textSize="12dp"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="5dp"
+        android:text="Gender"
+        android:textColor="#FFFFFF"
+        android:layout_toRightOf="@+id/facultyName"/>
+
+    <TextView
+        android:id = "@+id/designationText"
+        android:scrollHorizontally="false"
+        android:inputType="textMultiLine"
+        android:layout_width="120dp"
+        android:textSize="12dp"
+        android:layout_height="75dp"
+        android:text="Designation"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:textColor="#FFFFFF"
+        android:layout_toRightOf="@+id/genderText" />
+
+    <TextView
+        android:id ="@+id/joiningText"
+        android:scrollHorizontally="false"
+        android:inputType="textMultiLine"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:text="Date of Joining"
+        android:textColor="#FFFFFF"
+        android:layout_toRightOf="@+id/designationText" />
+
+    <TextView
+        android:id = "@+id/specializationText"
+        android:scrollHorizontally="false"
+        android:inputType="textMultiLine"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:textSize="12dp"
+        android:text="Area of Specialization"
+        android:textColor="#FFFFFF"
+        android:layout_toRightOf="@+id/joiningText" />
+
+
+    <TextView
+        android:id = "@+id/appointmentText"
+        android:scrollHorizontally="false"
+        android:inputType="textMultiLine"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:textSize="12dp"
+        android:layout_marginLeft="5dp"
+        android:text="Appointment Type"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/specializationText" />
+
+    <TextView
+        android:id = "@+id/institute_name"
+        android:scrollHorizontally="false"
+        android:textSize="12dp"
+        android:inputType="textMultiLine"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:text="Institute Name"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:textColor="#FFFFFF"
+        android:layout_toRightOf="@+id/appointmentText" />
+
+</RelativeLayout>
